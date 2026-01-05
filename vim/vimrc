@@ -16,6 +16,7 @@ set expandtab
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
+set textwidth=100
 
 set autoindent
 set smartindent
@@ -23,6 +24,7 @@ set copyindent
 set hlsearch
 
 set listchars=eol:↵
+set list
 
 set splitright
 set splitbelow
@@ -31,8 +33,16 @@ set nu
 set rnu
 set mouse=a
 
-@@ !'thief'
-colorscheme delek
-@@
-
 set clipboard=unnamedplus
+let g:mapleader = " "
+
+map <leader>l :bnext<cr>
+map <leader>h :bprev<cr>
+map <leader>bd :bdel!<cr>
+
+inoremap jj <Esc>
+
+map H ^
+map L g_
+
+map <C-l> :nohlsearch<cr>
