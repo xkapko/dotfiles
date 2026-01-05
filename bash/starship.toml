@@ -1,5 +1,5 @@
 add_newline = false
-format = "$git_branch$git_status$lua$rust$zig$c$cmake$java$python $directory$status$battery$character"
+format = "$jobs$git_branch$git_status$lua$rust$zig$c$cmake$java$python $directory$status$battery$character"
 
 [directory]
 truncation_length = 3
@@ -72,3 +72,8 @@ style = "cyan"
 [[battery.display]]
 threshold = 100
 style = "green"
+
+[jobs]
+format = ' [$symbol $number]($style)'
+number_threshold = 1
+symbol = ""
