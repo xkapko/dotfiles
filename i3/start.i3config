@@ -46,6 +46,8 @@ exec --no-startup-id swaybg -c 282828 -m solid_color
 input type:keyboard {
     xkb_layout us,sk(qwerty)
     xkb_options grp:rctrl_toggle
+    repeat_delay 300
+    repeat_rate 20
 }
 
 # Use Mouse+$mod to drag floating windows to their wanted position
