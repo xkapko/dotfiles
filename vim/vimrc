@@ -31,6 +31,8 @@ set nu
 set rnu
 set mouse=a
 
+@@ !'thief'
 colorscheme delek
+@@
 
 set clipboard=unnamedplus

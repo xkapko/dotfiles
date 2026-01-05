@@ -9,6 +9,7 @@ path+=(~/.local/share/JetBrains/Toolbox/scripts/)
 path+=(/usr/local/texlive/2023/bin/x86_64-linux)
 @@ 'thief'
 path+=(~/clones/fzf/bin/)
+path+=(/snap/bin/)
 @@
 
 export PAGER="nvim +Man!"
